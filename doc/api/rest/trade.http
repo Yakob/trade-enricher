@@ -1,0 +1,6 @@
+### Enrich using trade.csv
+POST http://localhost:8080/api/v1/enrich
+Accept: text/csv
+Content-Type: text/csv
+
+< trade.csv
